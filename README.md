@@ -14,6 +14,8 @@ Use the following vim command while a python script is currently open in a buffe
 
 `:lua Pyterm()`
 
+<img src = https://user-images.githubusercontent.com/90126164/227781215-a5632917-61f3-4a78-b50a-d3f68679f562.png width = "900" height ="500">
+
 For ease of access, it would be better to map it to any preferred key(s). For example, use this autocmd to map it to f5:
 
 `vim.api.nvim_create_autocmd("FileType", { pattern = "python", command = [[nnoremap <f5> :lua Pyterm()<Cr>]] })`
